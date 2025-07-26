@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css" media="all">
+        div {
+            width: 60px;
+            height: 80px;
+            border: 1px solid black;
+            font-size: 85px;
+            text-transform: uppera  1case;
+            text-align: center;
+            position: relative;
+            left: 200px;
+            top: 10px;
+        }
+
+        #black {
+            width: 60px;
+            height: 80px;
+            background: linear-gradient(red, blue);
+            position: absolute;
+            top: 0;
+            left: 208px;
+            z-index: -1;
+            animation: text 4s infinite;
+        }
+
+        @keyframes text {
+            0% {
+                position: absolute;
+                top: 0px;
+            }
+
+            100% {
+                position: absolute;
+                top: 800px;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <div id="black"></div>
+    <div class="div1">A</div>
+    <div class="div2">M</div>
+    <div class="div3">I</div>
+    <div class="div4">T</div>
+</body>
+
+</html>
