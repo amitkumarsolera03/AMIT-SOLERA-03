@@ -1,0 +1,7 @@
+S.no	Name	Maths	Phys	Chem
+1	Sachin	87	90	75
+2	Simran	80	95	70
+3	Rajat	80	80	80
+4	Ravi	80	90	100
+
+5	shashank	60	70	80
